@@ -1,0 +1,282 @@
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+.navbar-toggle {
+  float: left;
+  margin-left: 5px;
+  background-color: #482c2e;
+}
+
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+  }
+}
+.text-size{
+	font-size:180%;
+}
+.navbar-toggle{position:relative;
+float:right;
+padding:9px 10px;
+margin-top:8px;margin-right:15px;margin-bottom:8px;
+ border:1px solid transparent;border-radius:4px}
+ .navbar-toggle:focus{outline:0}
+ .icon-bar{display:block;width:22px;height:2px;border-radius:1px}
+ .navbar-toggle .icon-bar+.icon-bar{margin-top:4px}
+
+ @font-face {
+	 font-family: tangak;
+	src: url(10945.ttf);
+	}
+
+body{
+	font-size: 110%;
+	 margin-bottom: 60px;
+	 padding:0;
+	overflow-x:  hidden;
+
+}
+.main2{
+	padding-left: 200px;
+}
+
+.navMenu{
+	background-color: #482c2e;
+}
+.navbar-default a {
+	color: #fff4f4;
+}
+
+.navCategory{
+ 	background-color:#5c3234; 
+ 	color:#02d1fd;
+ }
+ .linkCategory{
+ 	color:#482c2e;	
+ }
+.carousel, .carousel-item {
+    height: 376px;
+ 	max-width: 100%;
+}
+.carousel-item img{
+	width: 100%;
+	height: auto;
+}
+.sidebar{
+ padding-top: 10%;
+}
+
+.navbar-default li {
+   float:left;
+    position:relative;
+	text-align: center;
+}
+@media screen and (min-width:1300px) {
+	
+
+.navbar-default li {
+
+	 padding-right: 50px;
+	 padding-left: 50px;
+}
+}
+.logo{
+	width: 75px;
+}
+
+
+.header{
+	padding-top: 2%;
+}
+
+.navCategory{
+	background-color: #482c2e;
+    font-size:20px;
+    color:white;}
+
+
+
+
+@media (min-width: 0) {
+  .tog{
+    display: block; /* force showing the toggle */
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0;
+  }
+  .cat {
+    right: auto;
+    background: none;
+    border: none;
+  }
+}
+
+
+
+@media screen and  (max-width:960px) 
+{
+	.navbar-default li {
+	 padding-right: 10px;
+	 padding-left: 10px;
+
+ }
+ .form-inline, .translate, .logotip{
+		display: none;
+	}
+}
+ @media screen and (min-width:1200px) and (max-width:1300px)
+{
+	.navbar-default li {
+
+	 padding-right: 20px;
+	 padding-left: 20px;
+	}
+}
+
+@media screen and (min-width:960px) and (max-width:1200px)
+{
+		.navbar-default li {
+
+	 padding-right: 13px;
+	 padding-left: 13px;
+	}
+}
+
+
+.header{
+	margin-top: 60px; 
+	background-color:#ffffff;
+	text-align: center;
+	position: relative;
+}
+
+
+.translate{
+	text-align: left;
+	
+	font-size:140%
+
+}
+.rounded-circle{
+	position	: relative;
+width:160px;
+ height:160px;
+}
+.number{
+position	: absolute;
+	top		:-5px;
+	left		: 0;
+	width		: 100%;
+}
+.number span {
+	color			: white;
+font-size: 130px;
+
+}
+.jumbotron
+{
+	background-color:#fdfdfd;
+}
+
+.filter{
+	background-color:#fff4f4;
+	
+}
+.filterform{
+	padding: 10px;
+}
+.form-control{
+	max-width: 300px;
+}
+#input-select,
+#input-number {
+	width: 70px;
+}
+#html5, #complexity{
+	max-width: 230px;
+}
+#input-complexity{
+	width: 60px;
+}
+
+/* The side navigation menu */
+.sidenav {
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 20px; /* Stay at the top */
+	left: 0;
+	background-color: #482c2e; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+	transition: margin-left .5s;
+	padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+
+.activ{width: 250px}
+.noactiv{}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	height: 40px; /* Set the fixed height of the footer here */
+	background-color:  #482c2e;
+	clear:both;
+}
+
+
+.footer a{
+	margin-left: 3%;
+	color:#b3acaf;
+}
+
+.footer a:hover{
+	color:#ffffff;
+	text-decoration: none;
+}
